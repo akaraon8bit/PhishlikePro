@@ -955,7 +955,7 @@ function main () {
 
     print_good "Installation complete!."
     print_info "run tmux a -t gophish to connect to gophish Session "
-   print_info "run tmux a -t evilginx to connect to evilginx Session"
+    print_info "run tmux a -t evilginx to connect to evilginx Session"
     get_gophish_cred_tmux
     configure_evilginx_phislet
     donation
